@@ -59,37 +59,7 @@ class SecondPage extends StatelessWidget {
                 SizedBox(
                   height: 40,
                 ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: <Widget>[
-                    FlatButton(
-                      child: Text('INGRESAR'),
-                      color: Colors.amber,
-                      // borderRadius: BorderRadius.circular(30.0),
-                      padding: EdgeInsets.all(20.0),
-                      onPressed: () {},
-                    ), //Fin FlatButton
-                    new Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 10.0),
-                    ),
-
-                    RaisedButton(
-                      child: Text(
-                        'CANCELAR',
-                      ),
-                      color: Colors.red[600],
-                      // borderRadius: BorderRadius.circular(30.0),
-                      splashColor: Colors.cyan,
-                      animationDuration: Duration(seconds: 20),
-                      padding: EdgeInsets.all(20.0),
-                      colorBrightness: Brightness.light,
-                      onPressed: () {},
-                    ), //Fin Raised Button
-                    SizedBox(
-                      height: 40,
-                    ),
-                  ], //Fin niños Widget
-                ), //Fin de Niño Row
+               
               ], //fin de widget
             ), //fin de column
           ], //fin de widget
