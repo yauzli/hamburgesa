@@ -3,18 +3,19 @@ import 'package:cruz/pages/first_pages.dart';
 import 'package:cruz/pages/second_pages.dart';
 import 'package:cruz/pages/third_pages.dart';
 
-void main() => runApp(cruzApp());
 
-class cruzApp extends StatelessWidget {
+void main() => runApp(CruzApp());
+
+class CruzApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Hamburguesa de cruz',
+      title: 'Hamburguesa de Cruz',
       home: PaginaInicio(),
     ); //fin materialapp
   }
-} //fin clase cruzapp
+} //fin clase Cruzapp
 
 class PaginaInicio extends StatefulWidget {
   @override
@@ -29,7 +30,8 @@ class _PaginaInicioState extends State<PaginaInicio> {
     Widget child;
     switch (_index) {
       case 0:
-        child = FlutterLogo();
+        child = MaterialApp(debugShowCheckedModeBanner: false, home: new FirstPage());
+
         break;
       case 1:
         child = MaterialApp(debugShowCheckedModeBanner: false, home: new SecondPage());
@@ -43,13 +45,13 @@ class _PaginaInicioState extends State<PaginaInicio> {
       bottomNavigationBar: BottomNavigationBar(onTap: (newIndex) => setState(() => _index = newIndex), currentIndex: _index, items: [
         BottomNavigationBarItem(
             icon: Icon(Icons.home, color: Colors.amber, size: 30.0), //icon
-            title: Text('Casa')), //
+            title: Text('INICIO')), //
         BottomNavigationBarItem(
-            icon: Icon(Icons.push_pin_outlined, color: Colors.red, size: 30.0), //icon
-            title: Text('Articulos')), //
+            icon: Icon(Icons.contacts, color: Colors.red, size: 30.0), //icon
+            title: Text('REGISTRO')), //
         BottomNavigationBarItem(
-            icon: Icon(Icons.shopping_cart, color: Colors.purple, size: 30.0), //icon
-            title: Text('Compras')), //
+            icon: Icon(Icons.beenhere_sharp, color: Colors.purple, size: 30.0), //icon
+            title: Text('NOSOTROS')), //
       ]), // bottom
     ); //fin de scaffold
   } //fin de widget
