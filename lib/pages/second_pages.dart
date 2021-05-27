@@ -18,7 +18,7 @@ class SecondPage extends StatelessWidget {
             SizedBox(
               height: 40,
             ),
-            
+
             SizedBox(
               height: 20,
             ),
@@ -47,9 +47,9 @@ class SecondPage extends StatelessWidget {
                 SizedBox(
                   height: 40,
                 ),
-              
+
                 TextField(
-                  decoration: InputDecoration(hintText: "Sucursal", icon: Icon(Icons.vpn_key)), //fin de inputdecoration
+                  decoration: InputDecoration(hintText: "Sucursal", icon: Icon(Icons.place_outlined)), //fin de inputdecoration
                 ), //fin de textfield
                 SizedBox(
                   height: 40,
