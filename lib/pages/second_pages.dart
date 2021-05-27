@@ -20,7 +20,7 @@ class SecondPage extends StatelessWidget {
             ),
             Container(
               child: Text(
-                'Registrate para ver nuestros empleos disponbles',
+                'Contactanos!',
                 style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 26.0, color: Colors.red),
               ),
             ), //fin container
@@ -47,13 +47,19 @@ class SecondPage extends StatelessWidget {
                   height: 40,
                 ),
                 TextField(
-                  decoration: InputDecoration(hintText: "NOMBRE USURARIO", icon: Icon(Icons.email)), //fin de inputdecoration
+                  decoration: InputDecoration(hintText: "mensaje", icon: Icon(Icons.email)), //fin de inputdecoration
                 ), //fin de textfield
                 SizedBox(
                   height: 40,
                 ),
                 TextField(
-                  decoration: InputDecoration(hintText: "Contraseña", icon: Icon(Icons.vpn_key)), //fin de inputdecoration
+                  decoration: InputDecoration(hintText: "Telefono", icon: Icon(Icons.vpn_key)), //fin de inputdecoration
+                ), //fin de textfield
+                SizedBox(
+                  height: 40,
+                ),
+                TextField(
+                  decoration: InputDecoration(hintText: "Sucursal", icon: Icon(Icons.vpn_key)), //fin de inputdecoration
                 ), //fin de textfield
                 SizedBox(
                   height: 40,
