@@ -10,9 +10,9 @@ class FirstPage extends StatelessWidget {
           style: TextStyle(color: Colors.white),
         ),
         centerTitle: true,
-        backgroundColor: Colors.amber[300],
+        backgroundColor: Colors.red,
       ),
-      backgroundColor: Colors.blue[200],
+      backgroundColor: Colors.blue[50],
       body: Container(
         child: Center(
           child: Column(

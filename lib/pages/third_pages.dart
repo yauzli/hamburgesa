@@ -11,8 +11,8 @@ class _ThirdPageState extends State<ThirdPage> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        backgroundColor: Colors.purple[300],
-        title: Text('NOSOTROS COMO EMPRESA'),
+        backgroundColor: Colors.red,
+        title: Text('NOSOTROS'),
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20),
@@ -53,7 +53,7 @@ class _ThirdPageState extends State<ThirdPage> {
   Widget _crearCard2() {
     return Card(
       elevation: 5,
-      color: Colors.purple[300],
+      color: Colors.red,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       child: Container(
         padding: EdgeInsets.all(20),

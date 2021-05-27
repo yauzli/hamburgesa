@@ -3,7 +3,6 @@ import 'package:cruz/pages/first_pages.dart';
 import 'package:cruz/pages/second_pages.dart';
 import 'package:cruz/pages/third_pages.dart';
 
-
 void main() => runApp(CruzApp());
 
 class CruzApp extends StatelessWidget {
@@ -47,11 +46,11 @@ class _PaginaInicioState extends State<PaginaInicio> {
             icon: Icon(Icons.home, color: Colors.amber, size: 30.0), //icon
             title: Text('INICIO')), //
         BottomNavigationBarItem(
-            icon: Icon(Icons.contacts, color: Colors.red, size: 30.0), //icon
-            title: Text('EMPLEOS')), //
+            icon: Icon(Icons.restaurant_outlined, color: Colors.red, size: 30.0), //icon
+            title: Text('CONTACTO')), //
         BottomNavigationBarItem(
             icon: Icon(Icons.email_outlined, color: Colors.purple, size: 30.0), //icon
-            title: Text('CONTACTO')), //
+            title: Text('EMPRESA')), //
       ]), // bottom
     ); //fin de scaffold
   } //fin de widget
