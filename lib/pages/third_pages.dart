@@ -43,7 +43,7 @@ class _ThirdPageState extends State<ThirdPage> {
             SizedBox(
               height: 20,
             ),
-            Text('')
+            Text('En Wendys servimos la comida más fresca en un restaurante de comida rápida y creemos que el Cliente es lo más importante.')
           ],
         ),
       ),
@@ -60,14 +60,14 @@ class _ThirdPageState extends State<ThirdPage> {
         child: Column(
           children: <Widget>[
             Text(
-              'NUESTROS CLIENTES NOS RESPALDAN',
+              'Te estamos buscando!!',
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20, color: Colors.white),
             ),
             SizedBox(
               height: 20,
             ),
             Text(
-              'En Wendys servimos la comida mas fresca en un restaurante de comida rapida y creemos que el Cliente es lo más importante.',
+              'Nuestro staff sigue los principios de calidad, servicio y retribución a la comunidad establecidos por Dave Thomas nuestro fundador: Buscamos empleados con tenacidad y valor para cumplir el legado de Dave y estar orgulloso de ser Wendys.',
               style: TextStyle(color: Colors.white),
             )
           ],
