@@ -19,9 +19,10 @@ class FirstPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               new Container(
-                child: new Image.asset(
-                  'assets/images/diamond.png',//IMAGENEEEEEEEEEES
-                ),
+                 child: FadeInImage(
+                placeholder: AssetImage('assets/loading.gif'),
+                image: NetworkImage('http://wendysmx.net/img/logofooter.png'),//imageeeeeeeen
+              ),
               ),
               Text(
                 "Bienvenido!",
