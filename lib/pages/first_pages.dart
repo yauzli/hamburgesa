@@ -6,7 +6,7 @@ class FirstPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Cruz hamburguesa App',
+          'hamburguesa App',
           style: TextStyle(color: Colors.white),
         ),
         centerTitle: true,
@@ -19,10 +19,9 @@ class FirstPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               new Container(
-                 child: FadeInImage(
-                placeholder: AssetImage('assets/loading.gif'),
-                image: NetworkImage('http://wendysmx.net/img/logofooter.png'),//imageeeeeeeen
-              ),
+                child: new Image.asset(
+                  'assets/images/logofooter.png',
+                ),
               ),
               Text(
                 "Bienvenido!",
