@@ -24,7 +24,7 @@ class FirstPage extends StatelessWidget {
                 ),
               ),
               Text(
-                "Bienvenido!",
+                "Bienvenido a Wendys!",
                 style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 30),
               )
             ],
