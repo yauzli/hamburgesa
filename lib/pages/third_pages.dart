@@ -43,7 +43,7 @@ class _ThirdPageState extends State<ThirdPage> {
             SizedBox(
               height: 20,
             ),
-            Text('Somos una empresa socialmente responsable que siempre trata de ofrecerte los mejores servicios en la mejor calidad como siempre, es por eso que somos la empresa numero 1 en el pais en nuestro sitio')
+            Text('')
           ],
         ),
       ),
@@ -67,7 +67,7 @@ class _ThirdPageState extends State<ThirdPage> {
               height: 20,
             ),
             Text(
-              'Dado en las encuestas realizadas cada año y cada dia en nuestras multiples sucursales hemos terminado nuestros 15 años trabajando para ti con un promedio de 4.7 estrellas en servicio al cliente,4.8 en cuestion de productos y un 4.8 en servicios a domicilio siendo de igual forma numero 1 en las encuestas nacionales de comida rapida',
+              'En Wendys servimos la comida mas fresca en un restaurante de comida rapida y creemos que el Cliente es lo más importante.',
               style: TextStyle(color: Colors.white),
             )
           ],
@@ -87,7 +87,7 @@ class _ThirdPageState extends State<ThirdPage> {
               borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
               child: FadeInImage(
                 placeholder: AssetImage('assets/loading.gif'),
-                image: NetworkImage('https://raw.githubusercontent.com/vianeyalejandra03/mis_imagenes/main/burguer.jpg'),//imageeeeeeeen
+                image: NetworkImage('http://wendysmx.net/img/chicaburgers.jpg'),//imageeeeeeeen
               ),
             ),
             Padding(
