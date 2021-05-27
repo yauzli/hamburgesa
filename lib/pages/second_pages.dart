@@ -20,8 +20,8 @@ class SecondPage extends StatelessWidget {
             ),
             Container(
               child: Text(
-                'WENDYS',
-                style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 40.0, color: Colors.red),
+                'Registrate para ver nuestros empleos disponbles',
+                style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 26.0, color: Colors.red),
               ),
             ), //fin container
             SizedBox(
