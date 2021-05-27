@@ -85,9 +85,8 @@ class _ThirdPageState extends State<ThirdPage> {
           children: <Widget>[
             ClipRRect(
               borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
-              child: FadeInImage(
-                placeholder: AssetImage('assets/loading.gif'),
-                image: NetworkImage('http://wendysmx.net/img/chicaburgers.jpg'),//imageeeeeeeen
+              child: new Image.asset(
+                'assets/images/chicaburgers.jpg',
               ),
             ),
             Padding(
