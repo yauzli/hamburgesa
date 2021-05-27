@@ -18,12 +18,7 @@ class SecondPage extends StatelessWidget {
             SizedBox(
               height: 40,
             ),
-            Container(
-              child: Text(
-                'Contactanos!',
-                style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 26.0, color: Colors.red),
-              ),
-            ), //fin container
+            
             SizedBox(
               height: 20,
             ),
