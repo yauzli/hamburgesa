@@ -48,10 +48,10 @@ class _PaginaInicioState extends State<PaginaInicio> {
             title: Text('INICIO')), //
         BottomNavigationBarItem(
             icon: Icon(Icons.contacts, color: Colors.red, size: 30.0), //icon
-            title: Text('REGISTRO')), //
+            title: Text('EMPLEOS')), //
         BottomNavigationBarItem(
-            icon: Icon(Icons.beenhere_sharp, color: Colors.purple, size: 30.0), //icon
-            title: Text('NOSOTROS')), //
+            icon: Icon(Icons.email_outlined, color: Colors.purple, size: 30.0), //icon
+            title: Text('CONTACTO')), //
       ]), // bottom
     ); //fin de scaffold
   } //fin de widget

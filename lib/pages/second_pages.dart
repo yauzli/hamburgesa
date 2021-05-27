@@ -20,7 +20,7 @@ class SecondPage extends StatelessWidget {
             ),
             Container(
               child: Text(
-                'BURGUER KING',
+                'WENDYS',
                 style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 40.0, color: Colors.red),
               ),
             ), //fin container
@@ -37,7 +37,7 @@ class SecondPage extends StatelessWidget {
                           child: new Image(
                         width: 300.0,
                         height: 200.0,
-                        image: new AssetImage('assets/images/hamburguesa.jpg'),
+                        image: new AssetImage('assets/images/logofooter.png'),
                       ) //fin de image
                           )
                     ], //fin de widget
@@ -47,7 +47,7 @@ class SecondPage extends StatelessWidget {
                   height: 40,
                 ),
                 TextField(
-                  decoration: InputDecoration(hintText: "Correo o nombre de usuario", icon: Icon(Icons.email)), //fin de inputdecoration
+                  decoration: InputDecoration(hintText: "NOMBRE USURARIO", icon: Icon(Icons.email)), //fin de inputdecoration
                 ), //fin de textfield
                 SizedBox(
                   height: 40,
